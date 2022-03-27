@@ -38,12 +38,6 @@ public class LoginProcesa extends HttpServlet {
 				//Creación de la sesión de usuario
 				HttpSession session = request.getSession(true);
 				session.setAttribute("Nombre", usuario);
-
-				/*
-				 * Utilizar cookies para persistir un dato en el navegador del cliente y mostrar ese 
-				 * dato almacenado en alguna de las vistas
-				 */
-				
 				
 				Cookie cookie = new Cookie("nombre", admin);
 				cookie.setMaxAge(9000);

@@ -6,9 +6,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 import com.desafiolatam.basedatos.BaseDatos;
-import com.desafiolatam.models.Categoria;
 import com.desafiolatam.models.Producto;
-import com.desafiolatam.models.ProductoCategoria;
 
 public class ProductoDAOImpl implements ProductoDAO {
 

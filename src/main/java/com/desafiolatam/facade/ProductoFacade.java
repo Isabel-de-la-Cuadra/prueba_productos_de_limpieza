@@ -2,10 +2,8 @@ package com.desafiolatam.facade;
 
 import java.util.ArrayList;
 
-import com.desafiolatam.daos.CategoriaDAOImpl;
 import com.desafiolatam.daos.ProductoCategoriaDAOImpl;
 import com.desafiolatam.daos.ProductoDAOImpl;
-import com.desafiolatam.models.Categoria;
 import com.desafiolatam.models.Producto;
 import com.desafiolatam.models.ProductoCategoria;
 

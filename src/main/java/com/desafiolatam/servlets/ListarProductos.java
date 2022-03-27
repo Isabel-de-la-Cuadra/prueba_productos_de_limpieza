@@ -10,9 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.desafiolatam.daos.ProductoCategoriaDAO;
-import com.desafiolatam.daos.ProductoCategoriaDAOImpl;
-import com.desafiolatam.facade.CategoriaFacade;
 import com.desafiolatam.facade.ProductoFacade;
 import com.desafiolatam.models.ProductoCategoria;
 

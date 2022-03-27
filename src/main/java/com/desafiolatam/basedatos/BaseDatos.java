@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class BaseDatos {
 	
 	private String sServidor = "localhost"; //mi computador  o la ip 127.0.0.1
-	private String sUsuario = "root";
-	private String sPassword = "Admin1234";
-	private int iPuerto = 3306;
+	private String sUsuario = "root"; //Usuario base de datos
+	private String sPassword = "Admin1234"; //Clave de acceso a la base de datos
+	private int iPuerto = 3306; //Puerto de conexión 
 	private String sBaseDatos = "productosDeLimpieza"; //Nombre Base de Datos
 	
 	private String sServer = "";
@@ -22,12 +22,11 @@ public class BaseDatos {
 
 	public Connection datos() {
 		//this.sBaseDatos = baseDatos;
-		//recibimos el nombre de la base de datos
+		//recibir el nombre de la base de datos
 		this.sServer = "jdbc:mysql://"+this.sServidor+":"+
 						this.iPuerto+"/"+sBaseDatos;
-		//jdbc:mysql://localhost:3306/javaG6
 		
-		//registremos el driver mysql
+		//registrar el driver mysql
 		try {
 			//Class.forName("com.mysql.jdbc.Driver");//Mysql
 			Class.forName("com.mysql.cj.jdbc.Driver");//MariaDB

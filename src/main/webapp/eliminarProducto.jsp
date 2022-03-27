@@ -6,7 +6,9 @@
 <%@ page import="com.desafiolatam.models.Producto"%>
 
 <!DOCTYPE html>
+
 <html>
+
 <head>
 <meta charset="UTF-8">
 <title>Eliminar Productos de Limpieza</title>
@@ -30,6 +32,7 @@ body {
 </style>
 
 </head>
+
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-light border border-warning"

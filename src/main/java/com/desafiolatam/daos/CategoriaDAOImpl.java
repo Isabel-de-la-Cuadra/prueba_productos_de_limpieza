@@ -17,7 +17,7 @@ public class CategoriaDAOImpl implements CategoriaDAO{
 	
 	@Override
 	public int crearCategoria(Categoria categoria) {
-		
+		//No es necesario para el proyecto actual
 		int resultado = 0;
 
 		String query = "INSERT INTO categoria (nombre_categoria) values ('" + categoria.getNombre_categoria() + "')";
@@ -94,7 +94,6 @@ public class CategoriaDAOImpl implements CategoriaDAO{
 
 	@Override
 	public int eliminarCategoria(int id_categoria) {
-		
 		//Por terminar de implementar en otro momento
 		
 		int resultado = 0;

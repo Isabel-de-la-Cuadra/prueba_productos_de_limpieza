@@ -2,8 +2,11 @@
 	pageEncoding="UTF-8"%>
 	
 <!DOCTYPE html>
+
 <html>
+
 <head>
+
 <meta charset="UTF-8">
 <title>Bienvenida a Productos de Limpieza</title>
 <meta charset="UTF-8">
@@ -23,13 +26,13 @@ body {
 	background-image: linear-gradient(to right, rgba(241, 196, 15, 1),
 		rgba(241, 196, 15, 0));
 }
-
 #texto {
 	margin-left: 10%
 }
 </style>
 
 </head>
+
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-light border border-warning"

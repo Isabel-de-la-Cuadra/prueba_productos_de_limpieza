@@ -6,8 +6,11 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
 <!DOCTYPE html>
+
 <html>
+
 <head>
+
 <meta charset="UTF-8">
 <title>Listar Productos de Limpieza</title>
 <meta charset="UTF-8">
@@ -58,9 +61,8 @@ body {
 	<br>
 	<br>
 
-
 	<section class="container">
-		<section id="texto">
+		<section>
 			<h3>Estos son los Productos de limpieza que tenemos</h3>
 
 			<div class="container mt-5 ">

@@ -10,10 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.desafiolatam.daos.CategoriaDAO;
-import com.desafiolatam.daos.CategoriaDAOImpl;
-import com.desafiolatam.daos.ProductoDAO;
-import com.desafiolatam.daos.ProductoDAOImpl;
 import com.desafiolatam.facade.CategoriaFacade;
 import com.desafiolatam.facade.ProductoFacade;
 import com.desafiolatam.models.Categoria;
@@ -38,6 +34,7 @@ public class ModificarProducto extends HttpServlet {
 		HttpSession session = request.getSession();
 		String sessionNombre = (String) session.getAttribute("Nombre");
 
+		//Si el nombre de la sesión no es nulo, hay acceso a la página 
 		if (sessionNombre != null) {
 			
 			String idProducto = request.getParameter("id_producto");
@@ -67,7 +64,7 @@ public class ModificarProducto extends HttpServlet {
 
 		request.setCharacterEncoding("UTF-8");
 		
-		// capturar como string todo y luego pasear
+		// capturar como string todo y luego parsear
 		String idProducto = request.getParameter("id_producto");
 		String nombre_producto = request.getParameter("nombre_producto");
 		String precioProducto = request.getParameter("precio_producto");

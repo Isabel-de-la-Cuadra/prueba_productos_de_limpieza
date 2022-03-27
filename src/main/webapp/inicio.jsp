@@ -1,8 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
+
 <html>
+
 <head>
+
 <meta charset="UTF-8">
 <title>Productos de Limpieza</title>
 <meta charset="UTF-8">
@@ -22,13 +26,10 @@ body {
 	background-image: linear-gradient(to right, rgba(241, 196, 15, 1),
 		rgba(241, 196, 15, 0));
 }
-
-#texto {
-	margin-left: 10%
-}
 </style>
 
 </head>
+
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-light border border-warning"
@@ -42,8 +43,6 @@ body {
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link active"
-						aria-current="page" href="inicio">Inicio</a></li>
 					<li class="nav-item"><a class="nav-link" href="login">Login</a>
 					</li>
 				</ul>
@@ -55,7 +54,7 @@ body {
 	<br>
 	<br>
 
-	<section id="texto">
+	<section class="container">
 
 		<h1>Bievenid@ al programa de Productos de limpieza</h1>
 
@@ -63,5 +62,7 @@ body {
 		<h3>Ve al Navbar y pincha en Login</h3>
 
 	</section>
+
 </body>
+
 </html>
